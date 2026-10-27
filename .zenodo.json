@@ -1,0 +1,10 @@
+{
+  "title": "MKK-Z-001 - Suite EHK-SCCI FR2609390 - Systeme Transductif MKK + Protocole Zero",
+  "creators": [{"name": "Kayad, Mahamoud Nour"}, {"name": "Ayoun, Jean-Luc"}],
+  "license": "GPL-3.0",
+  "keywords": ["MKK","Protocole Zero","EHK-SCCI","FR2609390","bio-impedance","LOCK","Fluvio-Quantum"],
+  "related_identifiers": [
+    {"relation": "isNewVersionOf", "identifier": "10.5281/zenodo.23655352", "scheme": "doi"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.23677829", "scheme": "doi"}
+  ]
+}
