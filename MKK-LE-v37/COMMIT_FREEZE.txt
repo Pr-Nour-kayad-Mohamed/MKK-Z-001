@@ -1,0 +1,11 @@
+COMMIT HASH: 001f0350bb18c988
+TIMESTAMP UTC: 2026-10-29T22:06:21.403246+00:00
+PHI=1.618 frozen
+R0=5.0 frozen
+I_disc threshold=0.3 frozen
+Weights=0.5/0.3/0.2 frozen
+Formula: I_disc = 0.5*(1-residual)+0.3*sigma_min+0.2*SNR_norm
+SNR_norm = readout_SNR/20 clip [0,1]
+V3.6.1=V6.2 / INPI FR2609390 / Zenodo V4 10.5281/zenodo.23524997
+No co-deposit Igor - admission 29 Oct 00:39 warehouse hardware exists only algebra missing
+Software Validated Only - Hardware Pending

@@ -1,0 +1,28 @@
+
+LAB NOTE 5 - Software Closure - 30 Oct 2026 - Djibouti 04:36
+Auteur: Mohamed Nour Kayad
+Repo local: ~/catalyst-lean-v37 - NO EXTERNAL PUSH
+
+
+Commit freeze gelé AVANT pilot:
+  Hash original: 001f0350bb18c988
+  Timestamp UTC: 2026-10-29T22:06:21.403246+00:00
+  PHI=1.618 / R0=5.0 / I_disc threshold=0.3 / Weights 0.5/0.3/0.2
+
+Local git freeze:
+  384e695 LOCAL FREEZE
+  06011cb CLEANUP
+
+Hashes SHA256 locaux:
+  0c5263c4bd11255946be6357d2cbd78022cfeee320368c2da0e360da324447d1  COMMIT_FREEZE.txt
+  aa34e3a551c6603b5cc065621cb9381f3b15e7484163798fcac5645dc0ce9e8a  README.md
+  81806e1176eabd2679ca804bd65da4fe81ba9da2478bd5e364a2537b7efd326f  LAB_NOTE_5.md
+
+Clean A-D: 9.0-22.9 dB mean 21.95 dB @50% abstain 68.3% falsely 11.7%
+Bug EF 172.4 dB excluded
+Software VALIDATED sim Hardware Pending
+Measure engine not container EHK-SCCI async after output
+T_total = T_program + T_prop + T_readout
+V3.6.1=V6.2 INPI FR2609390 Zenodo V4
+Software phase CLOSED 30 Oct 2026
+
