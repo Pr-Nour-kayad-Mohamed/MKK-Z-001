@@ -1,3 +1,14 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23791433.svg)](https://doi.org/10.5281/zenodo.23791433) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23787465.svg)](https://doi.org/10.5281/zenodo.23787465)
+
+## DOI v0.2 FUSIONNE — Chain
+**v0.1 23787465 → v0.2 23791433 → GitHub v0.2-FUSIONNE 6eb48de**
+- Build: MKK-LE-v37-CORRECTED Prev 001f0350bb18c988 Commit 6eb48de Tag v0.2
+- PDF 55K 12p fusionné v0.1 integral + v0.2 clarifications bleues
+- Zip parent 243K
+- INPI FR2609390 V3.6.1=V6.2 ORCID 0009-0002-1443-7599 CC-BY 4.0
+- Label: Simulation requirements reported satisfied for A-D under documented model
+
+---
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23787465.svg)](https://doi.org/10.5281/zenodo.23787465)
 # MKK-Z-001 — MANIFESTE DES TESTS
 
