@@ -1,0 +1,52 @@
+MKK-Z-001 MANIFESTE DES TESTS v0.1
+Date: 2026-10-30 FR2609390 MKK-LE v37 001f0350bb18c988
+Git: d8974f2 / 06011cb / 384e695
+Zenodo: 23785373 GitHub: Pr-Nour-kayad-Mohamed/MKK-Z-001
+IMPORTANT: Spec PLANIFIE, resultats NON VERIFIES, pas de signature crypto.
+
+1. ARTEFACTS
+MKK-LE v37 ID build 001f0350bb18c988
+Tora U4 Version: A_COMPLETER
+EHK-SCCI Version: A_COMPLETER
+Commits: d8974f2 Parent / 06011cb public v1.0.2 / 384e695 base
+
+2. PERIMETRE
+Sync: Entree -> version figee -> MKK-LE -> Tora U4 si autorise -> sortie
+Async: events -> EHK-SCCI -> proposition -> validation separee
+
+3. MODELE FAUTES F PROPOSE
+F-01 malformee F-02 ressources F-03 exception
+F-04 timeout F-05 tardive F-06 bypass F-07 MAJ concur F-08 saturation F-09 rejeu F-10 echec
+
+4. CONTRAT EX-01 a EX-07
+EX-01: Pas exec Tora sans autorisation (r,x,v,c)
+EX-02: REFUS => 0 exec, 0 sortie utile
+EX-03: Contexte execute == autorise anti-TOCTOU
+EX-04: Tardive n'active pas expiree
+EX-05: 1 exec par r
+EX-06: Autorisation permet mais ne garantit pas achevement
+EX-07: MAJ ne modifie pas requetes engagees
+
+5. TESTS PLANIFIE
+T-001 Refus gate => 0 exec Tora PLANIFIE
+T-002 Ressources PLANIFIE
+T-003 Liaison PLANIFIE
+T-004 Bypass perimetre teste PLANIFIE
+T-005 Exception PLANIFIE
+T-006 Timeout 50ms PLANIFIE
+T-007 MAJ concurrente PLANIFIE
+T-008 Activation rollback PLANIFIE
+T-009 Interference S0 S1 S2 S3 S4 delta_p95<15% PLANIFIE
+T-010 T_critique = t_sortie - t_arrivee PLANIFIE
+
+6. RESULTATS NON VERIFIES
+R-01 DESACTIVE med 12ms p95 18ms
+R-02 ACTIVE med 13ms p95 20ms
+R-03 8% A_CLARIFIER
+
+7. TRACABILITE
+ZIP global SHA256 efef689229e74fdb1bbb9d4e8ec678068d7031da147dae3f8dba87293eca1c6a
+Internes prefixes 0c5263c4 aa34e3a5 81806e11 4f89ffab
+Formulation: Release identifiee par commit et archive munie empreinte, deposee pour tracabilite, aucune signature crypto declaree.
+
+8. VERDICT Spec proposee, preuves a documenter, HIL en attente.
